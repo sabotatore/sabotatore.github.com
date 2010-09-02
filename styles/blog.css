@@ -172,10 +172,10 @@ a,input{outline:none;}
 /* Notes */
 .postbody .notes{margin:3em 0 1.5em;border-top:1px solid #333;padding:0;}
 .postbody .notes li{list-style:none;border-bottom:1px solid #333;padding:0.5em 0 0.5em 1em;margin:0;font-size:1.3em;line-height:1.5;}
-{block:IfTumblrUsername}
-.postbody .notes .tumblelog_{text:Tumblr username}{background-color:#FFF;}
-.postbody .notes .tumblelog_{text:Tumblr username} a:hover{background-color:#fff;}
-{/block:IfTumblrUsername}
+
+.postbody .notes .tumblelog_sabotatore{background-color:#FFF;}
+.postbody .notes .tumblelog_sabotatore a:hover{background-color:#fff;}
+
 .postbody .notes .avatar{vertical-align:-5px;border:1px solid #333;padding:1px;margin-right:10px;background-color:#fff;}
 .postbody .notes blockquote{margin-top:0.5em;line-height:1.1;padding:0 0 0 30px;}
 .postbody .notes blockquote a{text-decoration:none;font-style:italic;color:#666;}
