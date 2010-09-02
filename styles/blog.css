@@ -2,7 +2,7 @@ html{height:100%;background-color:transparent;}
 body{font-size:60%;font-family:Arial,Verdana,Helvetica,sans-serif;color:#666;background:#fff url("http://static.tumblr.com/gpln05e/OHakg8i65/bg.png") repeat-y 0 0;height:100%;overflow:visible;}
 body.mac{font-size:60%;font-family:Arial,Verdana,Helvetica,sans-serif;color:#666;background:#fff url("http://static.tumblr.com/gpln05e/OHakg8i65/bg.png") repeat-y 0 0;height:100%;overflow:visible;}
 
-#sidebar{position:fixed; z-index:100; margin: 30px 0 0 30px;width:164px;padding:20px 19px 60px 20px;}
+#sidebar{position:fixed; z-index:100; margin: 30px 0 0 30px;width:220px;padding:20px 0px 60px 20px;}
 #sidebar h1,.text h1,.link h1,.chat h1,.quote blockquote.wczz{font-family:Arial,Verdana,Helvetica,sans-serif;}
 #sidebar h1{font-weight:normal;font-size:4em;line-height:0.9;margin-bottom:0.25em;}
 #sidebar h1 a{color:#000;text-decoration:none;font-family:"Big Caslon","Adobe Caslon Pro","Hoefler Text",Constantia,"Adobe Garamond Pro","Garamond",Centaur,"Goudy Old Style","Gill Sans","Gill Sans MT",Georgia,"Times New Roman",Times,serif;}
@@ -42,6 +42,12 @@ body.mac{font-size:60%;font-family:Arial,Verdana,Helvetica,sans-serif;color:#666
 #social .twitter{background-position:-112px 0;}
 #social .launchpad{background-position:-128px 0;}
 #social .github{background-position:-144px 0;}
+
+.tag_cloud {padding-top:20px;}
+.tag_cloud a {color:#666;text-decoration:none;}
+.tag_cloud a:hover {border-bottom: 1px dotted #666;}
+#tag_cloud #tag_list {list-style:none;}
+#tag_cloud #tag_list li {display:inline;}
 
 #credit{font-size:1.2em;line-height:1.5;position:fixed;left:25px;bottom:15px;z-index:200;color:#aaa;padding:5px;background-color:#fff;}
 #credit a{color:#aaa;text-decoration:none;}
