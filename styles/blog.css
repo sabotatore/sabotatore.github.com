@@ -141,7 +141,7 @@ a,input{outline:none;}
 .video .player{background:url("http://static.tumblr.com/gpln05e/b1ykg8igl/video-top.jpg") no-repeat 0 0;padding:31px 0 0 29px;}
 
 /* Text Post */
-.text h1{margin:0 0 0.5em;font-weight:normal;font-size:4.5em;line-height:0.9;color:#000;}
+.text h1{margin:0 0 0.5em;font-weight:normal;line-height:0.9;color:#000;}
 
 /* Link Post */
 .link h1{margin:0 0 0.5em;font-weight:normal;font-size:6em;line-height:0.85;background:#418546 url("http://static.tumblr.com/gpln05e/yXskg8ibb/link-bg.png") repeat-y 100% 50%;padding-right:40px;}
