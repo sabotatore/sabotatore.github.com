@@ -78,7 +78,8 @@ legend{color:#000;}
 
 /* Posts */
 #posts{padding:30px 0 5px;}
-.post{position:relative; padding-left:380px;width:560px;margin-bottom:3em;}
+.post{position:relative; padding-left:380px;width:620px;margin-bottom:3em;}
+.postbody h1 {font-size:18pt;}
 .postbody h1 a {text-decoration:none; color:#000;}
 .postbody p,.postbody li,.postbody dl,.postbody blockquote{font-weight:normal;font-size:12pt;line-height:1.33;margin:0.66em 0;}
 .postbody blockquote *{font-size:1em;margin:0;}
@@ -106,6 +107,7 @@ legend{color:#000;}
 .permalink a.dsq-comment-count{background-image:url("http://static.tumblr.com/gpln05e/uHBkvvbro/meta-comment.png");}
 .permalink a.shorturl{background-image:url("http://static.tumblr.com/gpln05e/YX4kz641t/meta-short.png");}
 .permalink a:hover span{border-bottom:1px dotted #418546;}
+.permalink a {text-transform:lowercase;}
 .datebox{position:absolute;left:280px;top:0;width:50px;padding:1em 0 0.75em;background-color:#000;font-family:"Adobe Caslon Pro",Cambria,"Adobe Garamond Pro","Garamond",Georgia,"Times New Roman",Times,serif;}
 .datebox .day{text-align:right;font-weight:normal;font-size:4em;line-height:0.9;color:#FFF;}
 .datebox .month{text-align:right;font-weight:normal;font-size:1.7em;line-height:1;color:#fff;text-transform:uppercase;}
@@ -140,8 +142,6 @@ a,input{outline:none;}
 
 /* Text Post */
 .text h1{margin:0 0 0.5em;font-weight:normal;font-size:4.5em;line-height:0.9;color:#000;}
-.text .content > p:first-child:first-letter{display:block;float:left;width:65px;height:70px;margin:0.1em 5px 5px 0;padding-left:5px;background:#ADADAD url("http://static.tumblr.com/gpln05e/Ifxkg8i6w/dropcap.png") no-repeat 50% 50%;text-align:center;text-transform:uppercase;line-height:1.7;color:#fff;font-size:3em;overflow:visible;}
-.text .fixcap:first-letter{padding:16px 18px 20px 23px !important;}
 
 /* Link Post */
 .link h1{margin:0 0 0.5em;font-weight:normal;font-size:6em;line-height:0.85;background:#418546 url("http://static.tumblr.com/gpln05e/yXskg8ibb/link-bg.png") repeat-y 100% 50%;padding-right:40px;}
@@ -185,13 +185,13 @@ a,input{outline:none;}
 .dsq-comment{font-size:1em !important;}
 .dsq-comment td{font-size:1.1em !important;}
 .dsq-comment-body,.dsq-authenticate p{font-size:1.3em !important;}
-#disqus_thread{margin:3em 0;padding-top:3em;background:url("http://static.tumblr.com/gpln05e/e4vkg8i7x/footer-bg.png") repeat-x 0 0;}
+#disqus_thread{margin:3em 0;}
 #disqus_thread a{color:#418546;}
 #disqus_thread h3{font-size:1.2em;font-weight:bold;text-transform:uppercase;color:#000;}
 
 /* Meta */
 .meta{clear:left;}
-.bar{overflow:hidden;padding-bottom:25px;margin-bottom:7.5em;background:url("http://static.tumblr.com/gpln05e/WV9kg8i5j/bar.png") no-repeat 0 100%;}
+.bar{overflow:hidden;padding-bottom:25px;margin-bottom:30px;background:url("http://static.tumblr.com/gpln05e/WV9kg8i5j/bar.png") no-repeat 0 100%;}
 .tagbar{margin:1.5em 0 -15px;min-height:24px;background-color:#eee;overflow:hidden;}
 .tagbar p{margin:0;text-transform:lowercase;font-size:1.4em;line-height:1.75;}
 .via{display:block;float:left;min-height:24px;background-color:#418546;}
@@ -207,8 +207,8 @@ a,input{outline:none;}
 .tags a:hover{color:#418546;}
 
 /* Footer */
-#footer{width:600px;margin:-30px 0 0 340px;background:url("http://static.tumblr.com/gpln05e/e4vkg8i7x/footer-bg.png") repeat-x 0 0;}
-#footer p{padding:25px 40px 15px;font-size:1.3em;color:#000;background:url("http://static.tumblr.com/gpln05e/UHEkg8i7c/esq.png") no-repeat 50% 66%;overflow:hidden;}
+#footer{width:680px;margin:-30px 0 0 340px;}
+#footer p{padding:25px 40px 15px;font-size:1.3em;color:#000;overflow:hidden;}
 #footer a{padding:0.5em 0.33em 0.25em;font-weight:bold;line-height:1;text-transform:uppercase;text-decoration:none;color:#000;background-image:url("http://static.tumblr.com/gpln05e/h7Jkg8i3v/arrows.png");background-repeat:no-repeat;border:1px solid #fff;}
 #footer span{padding:0.5em 0.33em 0.25em;font-weight:bold;line-height:1;text-transform:uppercase;text-decoration:none;color:#bbb;background-image:url("http://static.tumblr.com/gpln05e/fHnkga7vg/arrows-mute.png");background-repeat:no-repeat;border:1px solid #fff;}
 #footer a span{padding:0;background-image:none;border:none;color:#000;}
@@ -221,4 +221,8 @@ a,input{outline:none;}
 .search_query:before { content:'“'; }
 .search_query:after { content:'”'; }
 
-#tumblr_controls {display:none !important;}
+/*#tumblr_controls {display:none !important;}*/
+#credit {display:none;}
+.syntaxhighlighter {font-size:10pt !important; padding:3px 0;}
+.syntaxhighlighter .toolbar {display:none !important;}
+
