@@ -223,7 +223,7 @@ a,input{outline:none;}
 
 /*#tumblr_controls {display:none !important;}*/
 #credit {display:none;}
-#dsq-toolbar-dropdown {display:none;}
+#dsq-toolbar-dropdown {display:none !important;}
 .syntaxhighlighter {font-size:10pt !important; padding:3px 0;}
 .syntaxhighlighter .toolbar {display:none !important;}
 
