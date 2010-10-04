@@ -188,6 +188,9 @@ a,input{outline:none;}
 #disqus_thread{margin:3em 0;}
 #disqus_thread a{color:#418546;}
 #disqus_thread h3{font-size:1.2em;font-weight:bold;text-transform:uppercase;color:#000;}
+#dsq-toolbar-dropdown {display:none !important;}
+#dsq-content .dsq-item-sort, #dsq-content .dsq-post-area h3 {display:none;}
+#dsq-content .dsq-pagination { padding:0 !important;}
 
 /* Meta */
 .meta{clear:left;}
@@ -223,8 +226,6 @@ a,input{outline:none;}
 
 /*#tumblr_controls {display:none !important;}*/
 #credit {display:none;}
-#dsq-toolbar-dropdown {display:none !important;}
-#dsq-content .dsq-item-sort, #dsq-content .dsq-post-area h3 {display:none;}
 .syntaxhighlighter {font-size:10pt !important; padding:3px 0;}
 .syntaxhighlighter .toolbar {display:none !important;}
 
