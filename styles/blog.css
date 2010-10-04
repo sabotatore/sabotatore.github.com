@@ -224,6 +224,7 @@ a,input{outline:none;}
 /*#tumblr_controls {display:none !important;}*/
 #credit {display:none;}
 #dsq-toolbar-dropdown {display:none !important;}
+#dsq-content .dsq-item-sort, #dsq-content .dsq-post-area h3 {display:none;}
 .syntaxhighlighter {font-size:10pt !important; padding:3px 0;}
 .syntaxhighlighter .toolbar {display:none !important;}
 
