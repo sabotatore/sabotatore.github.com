@@ -34,6 +34,7 @@ legend{color:#000;}
 #sidebar .search{background-position:-45px 0;}
 #sidebar .ask{background-position:-90px 0;}
 #sidebar .submit{background-position:-105px 0;}
+#sidebar .desc{font-family:"Big Caslon","Adobe Caslon Pro","Hoefler Text",Constantia,"Adobe Garamond Pro","Garamond",Centaur,"Goudy Old Style","Gill Sans","Gill Sans MT",Georgia,"Times New Roman",Times,serif; font-size:13px; color: #666;}
 
 #search{display:none;clear:left;padding:2px 0;}
 #searchfield{width:125px;}
